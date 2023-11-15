@@ -27,18 +27,20 @@ body {
 .grid {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    height: 960px;
 }
 
 .row {
     display: flex;
+    width: 960px;
+    flex-grow: 1;
 }
 
 .box {
     margin: 0;
     padding: 0;
-    width: 30px;
-    height: 30px;
+    flex-shrink: 0;
     border: 1px black solid;
+    flex-grow: 1;
 }
